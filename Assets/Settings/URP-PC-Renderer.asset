@@ -72,25 +72,25 @@ MonoBehaviour:
   m_Active: 1
   requireHistoryColor: 1
   preferComputeShader: 1
-  enableStencilVrs: 1
+  enableStencilVrs: 0
   orderIndependentTransparency: 1
   oitFilterLayer:
     serializedVersion: 2
     m_Bits: 64
   oitOverrideStencil:
-    overrideStencilState: 0
-    stencilReference: 0
-    stencilReadMask: 0
-    stencilCompareFunction: 8
+    overrideStencilState: 1
+    stencilReference: 2
+    stencilReadMask: 2
+    stencilCompareFunction: 3
     passOperation: 0
     failOperation: 0
     zFailOperation: 0
   transparentDepthPostPass: 1
-  oitTransparentOverdrawPass: 0
+  oitTransparentOverdrawPass: 1
   subsurfaceScattering: 1
   perObjectShadowRenderingLayer:
     serializedVersion: 0
-    m_Bits: 0
+    m_Bits: 2
   transparentReceivePerObjectShadows: 1
   contactShadows: 1
   pcssShadows: 1
